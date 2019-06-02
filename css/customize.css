@@ -1,0 +1,198 @@
+/*
+Template Name : Movie Platform Maker created by Endorphins.
+Author        : Endorphins
+Version       : 1.0
+
+#1. Card
+#2. Main Category
+#3. Form
+#4. Toggle
+#5. Table
+
+*/
+/************* Card ******************/
+
+.card .card-img-overlay small.badge-secondary{
+  font-size: 12px;
+  font-weight: 900;
+  background-color: #456CD9;
+  padding: 5px 10px;
+}
+
+.card .card-img-overlay small.badge-success{
+  font-size: 12px;
+  font-weight: 900;
+  background-color: #76c1c7;
+  padding: 5px 10px;
+}
+
+.card .card-img-overlay small.badge-danger{
+  font-size: 12px;
+  font-weight: 900;
+  background-color: #ff5e3a;
+  padding: 5px 10px;
+}
+
+.card .card-body .card-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #333333;
+  line-height: 19px;
+  text-decoration: none;
+  display: block;
+  min-height: 38px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.card .card-body a.channel-name {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #a7a7a7;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  line-height: 19px;
+}
+
+.card-img-overlay {
+  bottom: 80%;
+}
+
+.category_wrap{
+  margin-bottom: 30px;
+}
+
+/************* Card ******************/
+
+#main-category .main-category-menu img{
+  max-width: 35px;
+  max-height: 35px;
+}
+
+
+/************* Form ******************/
+
+.input-group>.custom-file:not(:last-child) .custom-file-label{
+  background-color: #f6f3f3;
+  border-color: #f6f3f3;
+}
+
+.input-group>.input-group-append>.btn{
+  border-color: #f6f3f3;
+}
+
+.custom-file-input:lang(ja) ~ .custom-file-label::after {
+  content: "参照";
+}
+     
+.custom-file {
+  max-width: 20rem;
+  overflow: hidden;
+}
+.custom-file-label {
+  white-space: nowrap;
+}
+
+/************* Toggle ******************/
+
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
+/************* Table ******************/
+
+.analytics-table{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #888da8;
+  line-height: 24px;
+  background-color: #FFF;
+  padding: 30px;
+  margin-top:15px;
+}
+
+#views-number {
+  color: #66c0c2;
+}
+
+.number-of-views{
+  margin-bottom: 20px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.analytics-table thead tr th {
+  white-space: nowrap;
+}
+
+
+.new-channel {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  margin: 25px 0 0;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.channel-list {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.chanel-item a.subscribe {
+  font-family: 'Roboto', sans-serif;
+  background-color: #66c0c2;
+  height: 25px;
+  width: 85px;
+  text-align: center;
+  display: block;
+  float: right;
+  font-size: 11px;
+  font-weight: 900;
+  color: #FFF;
+  margin-top: 25px;
+  position: relative;
+  z-index: 5;
+}
+
+.basic-info-item {
+  background-color: #FFF;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  padding: 30px;
+  text-transform: uppercase;
+}
+
+#category h1.new-video-title {
+  margin-top: 30px;
+}
+
+.basic-info-item tbody{
+  text-align: center;
+}
+
+
+/************* Movie Single ******************/
+
+.chanel-item .chanel-info span.title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #333333;
+  margin-left: 10px;
+}
