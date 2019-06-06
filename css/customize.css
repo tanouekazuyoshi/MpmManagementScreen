@@ -8,6 +8,7 @@ Version       : 1.0
 #3. Form
 #4. Toggle
 #5. Table
+#6. Password Reset
 
 */
 /************* Card ******************/
@@ -195,4 +196,20 @@ Version       : 1.0
   font-weight: 700;
   color: #333333;
   margin-left: 10px;
+}
+
+
+/************* Password Reset ******************/
+
+.realperson-challenge {
+  padding: 1rem;
+}
+
+.realperson-challenge .realperson-text {
+  font-weight: initial;
+  letter-spacing: -3px;
+}
+
+.realperson-challenge .realperson-regen {
+  padding-top: 12px;
 }
