@@ -213,3 +213,20 @@ Version       : 1.0
 .realperson-challenge .realperson-regen {
   padding-top: 12px;
 }
+
+.new-password{
+text-align: center;
+background-color: #66c0c2;
+padding: 1rem;
+color: black;
+}
+
+.new-password-button {
+  text-align: center;
+  padding: 1rem;
+}
+
+#password-reset-comp p{
+  color: black;
+  font-size: 16px;
+}
