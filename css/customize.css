@@ -9,6 +9,7 @@ Version       : 1.0
 #4. Toggle
 #5. Table
 #6. Password Reset
+#7. Terms of service
 
 */
 /************* Card ******************/
@@ -233,4 +234,15 @@ color: black;
 
 .invited-mail{
   color: black;
+}
+
+
+/************* Terms of service ******************/
+
+.terms-of-service .log-in-form {
+  max-width: 800px;
+}
+
+.terms-of-service h1 {
+text-transform: initial;
 }
