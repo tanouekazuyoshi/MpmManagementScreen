@@ -196,6 +196,28 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-12 form-group">
+                                            <label>ユーザー名</label>
+                                            <div class="form-row">
+                                                <div class="col-lg-9 form-check">
+                                                    <div class="input-group mb-0">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">@</div>
+                                                        </div>
+                                                        <input type="text" class="form-control"
+                                                            aria-describedby="userIdBlock" id="inlineFormInputGroup"
+                                                            placeholder="" required pattern="^([a-zA-Z0-9]{4,})$">
+                                                    </div>
+                                                    <small id="userIdBlock"
+                                                        class="form-text text-muted">半角英数字4文字以上で記入してください</small>
+                                                    <div class="invalid-feedback">ユーザー名を入力してください</div>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <button type="submit" id="user_name_submit"
+                                                        class="btn btn-dm mt-0">保存する</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 form-group">
                                             <label>アイコン</label>
                                             <div class="form-row">
                                                 <div class="col-lg-9 form-check">
@@ -223,8 +245,7 @@
                                             <label>メールアドレス</label>
                                             <div class="form-row">
                                                 <div class="col-lg-9 form-check">
-                                                    <input type="mail" class="form-control" placeholder=""
-                                                        required>
+                                                    <input type="mail" class="form-control" placeholder="" required>
                                                     <!--チャンネルのタイトル挿入-->
                                                 </div>
                                                 <div class="col-lg-3">
@@ -237,16 +258,18 @@
                                             <label>新しパスワード</label>
                                             <div class="form-row">
                                                 <div class="col-lg-9 form-check">
-                                                    <input type="text" class="form-control" placeholder=""
-                                                        required>
+                                                    <input type="text" aria-describedby="newPasswordBlock" class="form-control mb-0" placeholder="" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
                                                     <!--チャンネルのタイトル挿入-->
+                                                    <small id="newPasswordBlock"
+                                                    class="form-text text-muted">8文字以上、数字、小文字・大文字アルファベットが含まれていること</small>
+                                                <div class="invalid-feedback">パスワードを正しくご入力ください</div>
                                                 </div>
+
                                             </div>
-                                            <label>新しパスワード（確認用）</label>
+                                            <label class="mt-3">新しパスワード（確認用）</label>
                                             <div class="form-row">
                                                 <div class="col-lg-9 form-check">
-                                                    <input type="text" class="form-control" placeholder=""
-                                                        required>
+                                                    <input type="text" class="form-control" placeholder="" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
                                                     <!--チャンネルのタイトル挿入-->
                                                 </div>
                                                 <div class="col-lg-3">
